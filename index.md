@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+</head>
 
-You can use the [editor on GitHub](https://github.com/qiaifa/school/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+<center>
+<div id="head">
+<table width="1000"border="0"cellpading="0"cellspacing="0">
+<tr>
+          <td><img src="title.jpg"width="1000"height="100"></td> 
+          </tr>
+<tr>
+         <td align="center"><h1>燕子農場</h1></td>
+</tr>
+</table>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div id="nav1"><br>
+<table width="1000"border="0"cellpadding="0"
+cellpacing="1"bgcolor="#999999">
+<tr>
+        <td bgcolor="#ffffff"><a herf="index.htm">燕子品牌</a>　＞
+<a herf="index.htm">產品系列</a>　＞
+<a herf="index.htm">農夫故事
+</td>
+</tr>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qiaifa/school/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</table>
+</div>
+</body
+</html>
