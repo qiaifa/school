@@ -7,13 +7,13 @@ body {
 /* 標題1*/
 h1 {
     font-size: 3em;
-    color:DarkSeaGreen;
+    color: DarkSeaGreen;
     text-align: center;
 }
 
 /* 選單 */
 .navigation ul {
-    background-color:DarkSeaGreen;
+    background-color: DarkSeaGreen;
     margin: 0;
     padding: 4px;
     text-align: center;
@@ -24,7 +24,7 @@ h1 {
     margin: 0 8px;
 }
 .navigation ul li a {
-    color:DarkSeaGreen;
+    color: DarkSeaGreen;
     text-decoration: none;
 }
 .navigation ul li a:hover {
