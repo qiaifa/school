@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tw"
+<head>
+  <meta charset="UTF-8">
+  <title>本月推薦</title>
+<script src="good.jpg"></script>
+
+<style>
+.full-screen{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(255,160,35,0.6);
+	z-index:10;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+p{
+       color:red;
+       margin:5px;
+       cursor:pointer;
+}
+p:hover{
+         background:yellow;
+}
+
+.close{
+ position: absolute;
+ z-index:11;
+ right: 25px;
+ top: 25px;
+ width: 50px;
+ height: 50px; 
+ background: silver;
+ border-radius: 25px; 
+ box-shadow: 2px 2px 5px 0px black;
+ cursor: pointer;
+
+}
+.close:hover {
+ background: red;
+}
+
+.close:before {
+ position: absolute;
+ content: ''; 
+ width: 30px;
+ height: 10px; 
+ background: white; 
+ transform: rotate(45deg); 
+ top: 20px; left: 10px;
+
+}
+.close:after{
+ content: '';
+ position: absolute;
+ width: 30px;
+ height: 10px;
+ background: white; 
+ transform: rotate(-45deg);
+ top: 20px;
+ left: 10px;
+}
+
+</style>
+</head>
+<body>
+<h1>燕仔農夫</h1>
+<p>手工黑糖炒薑片</p>
+
+<div class="full-screen"align=center>
+
+
+<img src="good.jpg">
+</div>
+
+<div class="close">
+</div>
+
+<script>
+$("p").click(function(){
+      $(".full-screen").slideToggle();
+});
+
+
+$("p").click(function(){
+ $(".close").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".full-screen").slideToggle();
+});
+
+
+$(".close").click(function(){
+ $(".close").slideToggle();
+});
+
+
+</script>
+</body>
+</html>
